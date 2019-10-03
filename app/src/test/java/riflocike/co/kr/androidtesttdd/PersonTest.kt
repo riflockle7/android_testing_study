@@ -7,7 +7,6 @@ import org.mockito.Mockito.mock
 import org.mockito.Mockito.`when`
 
 class PersonTest {
-
     @Test
     fun test() {
         //mock 을 통해 Person 객체를 생성해줍니다.
@@ -23,7 +22,5 @@ class PersonTest {
         //p 의 반환 값이 기대값과 같은지 확인 합니다.
         assertTrue("BlackJin" == p.name)
         assertTrue(27 == p.age)
-
     }
-
 }
